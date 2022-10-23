@@ -13,11 +13,9 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "http://verdaccio.op.leiga.net:14873/"
-  },
   "scripts": {
-    "test": "node ./__tests__/leo-core.test.js"
+    "test": "node ./__tests__/leo-core.test.js",
+    "build": "node ./build/index.js"
   },
   "dependencies": {
     "leo-utils": "*"
